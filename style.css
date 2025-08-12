@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    margin: 0;
+    
+    
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    
+}
+
