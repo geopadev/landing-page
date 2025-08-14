@@ -35,5 +35,8 @@ a {
 }
 
 .signup {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
 }
