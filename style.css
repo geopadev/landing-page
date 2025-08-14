@@ -9,8 +9,9 @@ body {
 .header {
     background-color: #1f2937;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex: 1;
+    
     
     
     
@@ -21,6 +22,7 @@ ul {
     display: flex;
     gap: 10px;
     list-style-type: none;
+    
         
 
 }
@@ -41,6 +43,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 
     
@@ -49,15 +52,21 @@ a {
 ul.secondary {
     align-items: center;
     margin-left: auto;
+    margin-top: 0;
 
 }
 
-.header-top {
+.header-left {
     display: flex;
+    flex-direction: column;
+
 }
 
-.main {
+
+.header-right {
     display: flex;
+    flex-direction: column;
+    margin-left: auto;
     
     
 }
