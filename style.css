@@ -166,5 +166,14 @@ ul.secondary {
     
 }
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 200px;
+}
+
 
 
