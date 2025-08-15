@@ -1,7 +1,7 @@
 body {
     display: flex;
     margin: 0;
-    flex-direction: row;
+    flex-direction: column;
     font-family: roboto;
     
     
@@ -113,5 +113,15 @@ ul.secondary {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
+}
+
+.inf-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.square-container {
+    display: flex;
+    flex-direction: row;
 }
 
