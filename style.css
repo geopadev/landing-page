@@ -108,3 +108,10 @@ ul.secondary {
     margin-right: 300px;
 }
 
+.header-right>img {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
