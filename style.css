@@ -118,10 +118,44 @@ ul.secondary {
 .inf-header {
     display: flex;
     flex-direction: column;
+    
 }
 
 .square-container {
     display: flex;
     flex-direction: row;
+    margin-top: 200px;
+    gap: 20px;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.inf-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.square-fixed {
+
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.squares {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+}
+
+.squares>div {
+    margin: 5px;
+    text-align: center;
 }
 
