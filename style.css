@@ -234,3 +234,12 @@ ul.secondary {
     color: #f9faf8;
 }
 
+.footer-bottom {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 50px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
